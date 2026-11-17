@@ -41,3 +41,13 @@ app-template/                  app Node + Socket.IO + React (jogo, missões, dec
 - Nomes de alunos e professores, fotos de marcas e o personagem original foram trocados por marcadores. Coloque os seus.
 - Antes de usar uma citação ou um dado do exemplo numa aula, confira a fonte (as notas do professor apontam quais ainda precisam ser checados).
 - Requisitos para o app: Node 20+. Para as ferramentas do deck: Python 3.9+ com Pillow.
+
+## Licença
+
+[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br). Texto completo em [LICENSE](LICENSE).
+
+Você pode usar, adaptar e redistribuir, inclusive para fins comerciais, desde que dê o crédito. Por exemplo:
+
+> Baseado no *Kit Aula Gamificada*, de ricardo-guimaraes, https://github.com/ricardo-guimaraes/kit-aula-gamificada (CC BY 4.0).
+
+A licença cobre o que foi criado neste kit. Marcas, logos e citações de terceiros mencionados nos exemplos pertencem aos seus donos.

@@ -1,5 +1,6 @@
 ---
 name: aula-gamificada
+license: CC-BY-4.0 (https://github.com/ricardo-guimaraes/kit-aula-gamificada)
 description: >-
   Cria aulas e apresentações gamificadas no formato deck HTML estilo videogame com
   interação ao vivo pelo celular. É um único arquivo HTML 1920x1080 com visual pixel/HUD,
