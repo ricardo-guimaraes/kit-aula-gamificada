@@ -1,0 +1,24 @@
+# Blueprint do Render: um único Web Service com o jogo, o deck e as missões.
+# No Render: New → Blueprint → escolha este repositório.
+services:
+  - type: web
+    name: minha-aula # troque pelo nome do seu serviço
+    runtime: node
+    plan: free # para a aula, troque para "starter": o free "dorme" após 15 min parado
+    region: virginia
+    numInstances: 1 # as salas vivem na memória: nunca rode mais de uma instância
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      # Caminho secreto da apresentação (a tecla N do deck mostra as notas do professor).
+      - key: DECK_PATH
+        value: /aula-TROQUE-ESTE-CAMINHO # algo difícil de adivinhar
+      # Chave do professor: o Render sorteia uma; veja em Environment no painel do serviço.
+      - key: ADMIN_KEY
+        generateValue: true
